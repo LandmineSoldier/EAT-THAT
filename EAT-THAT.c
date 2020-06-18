@@ -24,7 +24,7 @@ int main(void)
 	printf("=      EAT THAT!       =\n");
 	printf("=                      =\n");
 	printf("========================\n");
-
+	Sleep(2000);
 
 
 RESTART:
@@ -35,7 +35,7 @@ RESTART:
 			map[i][j] = ' '; // 0으로 하면 드러워서 스페이스바로 모두 초기화
 		}
 	}
-	Sleep(2000);
+
 	system("cls");
 	for (int i = 0; i < 10; i++)
 	{
